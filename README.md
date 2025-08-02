@@ -41,4 +41,8 @@ A sample train dataset (sample_1) has been prepared for all users. You can add y
 Please remember to put all data in 5 separate sub-folders, anger, happy, neutral, sad, suprise.
 
 ## How to run
+### 1. Model training and validation
+If you want to train a model yourself, you can use the notebook train_model.ipynb and change the parameters as you please.
+After training, your model can be saved inside the /models folder by running the cell at the end of train_model.ipynb.
+For validation, you can use the notebook evaluate_model.ipynb. This notebook can be used to run your saved model.
 
