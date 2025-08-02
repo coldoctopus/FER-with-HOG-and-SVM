@@ -1,7 +1,7 @@
 import cv2, os
 from skimage import color, feature, io
 
-def preprocessing_split(filePath, train_ratio=0.75):
+def preprocessing_split(filePath, train_ratio):
     data_train = []
     label_train = []
     data_test = []
