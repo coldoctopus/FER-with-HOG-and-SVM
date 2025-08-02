@@ -6,3 +6,5 @@ __pycache__/
 # Ignore logs or Jupyter checkpoints
 *.log
 .ipynb_checkpoints/
+
+/models
