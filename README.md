@@ -19,6 +19,23 @@ cd facial-expression-detector
 pip install -r requirements.txt
 ```
 
+### 3. Activate the enivronment
+On Windows:
+```bash
+.venv\Scripts\activate
+```
+
+On Mac/Linux:
+```bash
+source .venv/bin/activate
+```
+### Note: Auto-activate virtual environment in VSCode
+Once you've created .venv/ and opened VSCode:
+- Open the Command Palette (Ctrl+Shift+P)
+- Select "Python: Select Interpreter"
+- Pick your .venv/ environment
+Now VSCode will use it automatically.
+
 ### 3. Prepare the dataset
 A sample train dataset (sample_1) has been prepared for all users. You can add your own datasets in the /datasets folder.
 Please remember to put all data in 5 separate sub-folders, anger, happy, neutral, sad, suprise.
